@@ -7,9 +7,9 @@ const sizeClasses: Record<ButtonProps["size"], string> = {
 };
 
 
-const Button: React.FC<ButtonProps> = ({ title, size, shape }) => {
+const Button: React.FC<ButtonProps> = ({ title, size, shape, styles }) => {
     return (
-        <button className={`bg-blue-500 text-white ${sizeClasses[size]} ${shape}`}>
+        <button className={` ${sizeClasses[size]} ${shape} ${styles}`}>
             {title}
         </button>
     );
