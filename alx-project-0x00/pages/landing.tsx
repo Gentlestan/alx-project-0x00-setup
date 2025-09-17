@@ -20,7 +20,7 @@ const Landing: React.FC =  () => {
         <Button 
         title="Large Button" 
         size="large" 
-        shape="rounded-full" 
+        shape="rounded-lg" 
         styles="bg-gray-800 text-white" />
     </div>
   )
