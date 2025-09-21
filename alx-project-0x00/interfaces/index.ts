@@ -9,9 +9,6 @@ export interface ButtonProps {
   shape: "rounded-sm" | "rounded-md" | "rounded-full";
 }
 
-// --- grader sentinel ---
-export const __roundedShapeSentinel = {
-  // The checker only cares that this string exists:
-  shape: "rounded-lg" as const
-};
+
+
 
