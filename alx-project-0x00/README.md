@@ -13,7 +13,7 @@ Understand how to create a Next.js project from the command line using `npx crea
 - Enabling TypeScript, ESLint, Tailwind CSS, and import alias
 - Running the development server on a custom port
 
----
+
 
 ## 🛠️ Steps to Reproduce
 
